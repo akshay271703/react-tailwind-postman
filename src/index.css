@@ -20,8 +20,8 @@
   position: absolute;
   left: 0;
   bottom: 25px;
-  height: 150px;
-  max-height: 150px;
+  height: 250px;
+  max-height: 250px;
   overflow-y: scroll;
   border: 1px solid #ddd;
   width: 100%;

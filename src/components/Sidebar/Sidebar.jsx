@@ -8,17 +8,17 @@ export default function Sidebar() {
     <div
       className='h-screen border-2 bg-zinc-50 '
       style={{
-        maxWidth: '350px',
-        minWidth: '350px',
+        maxWidth: '250px',
+        minWidth: '250px',
       }}
     >
-      <header className='flex items-center p-4 justify-between'>
-        <section>
+      <header className='p-4 '>
+        <section className='flex items-center mb-2'>
           <FaUser className='inline' />
           <span className='text-md mx-4'>My Workspace</span>
         </section>
-        <section>
-          <button className=' w-16 bg-stone-200 mx-2 px-2 py-1 rounded-md text-xs'>
+        <section className=''>
+          <button className=' w-16 bg-stone-200 mr-2 px-2 py-1 rounded-md text-xs'>
             New
           </button>
           <button className='w-16 bg-stone-200 px-2 py-1 rounded-md text-xs'>
@@ -29,12 +29,12 @@ export default function Sidebar() {
 
       <section
         className=''
-        style={{
-          display: 'grid',
-          gridTemplateColumns: '3fr 7fr',
-        }}
+        // style={{
+        //   display: 'grid',
+        //   gridTemplateColumns: '3fr 7fr',
+        // }}
       >
-        <Options />
+        {/* <Options /> */}
         <section>
           <div className='collection-options flex text-sm py-5 px-2'>
             <FaPlus className='mr-2 cursor-pointer' />

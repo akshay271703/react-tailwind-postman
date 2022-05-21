@@ -19,19 +19,19 @@ export const REQUEST_TYPES = ['GET', 'POST', 'PATCH', 'PUT', 'DELETE'];
 export const dummyParams = [
   {
     id: 1,
-    key: 'Params Key 1',
+    key: 'ParamsKey1',
     value: 'Value Key 1',
   },
 ];
 export const dummyHeaders = [
   {
     id: 1,
-    key: 'Header Key 1',
+    key: 'HeaderKey1',
     value: 'Value 1',
   },
   {
     id: 2,
-    key: 'Header Key 2',
+    key: 'HeaderKey2',
     value: 'Value 2',
   },
 ];
